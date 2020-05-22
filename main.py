@@ -45,9 +45,9 @@ pd.DataFrame(names)
 
 
 # Chord(matrix, names).to_html()
+# 6ED56E
 
-
-hex_colours = ["#264E9A", "#DCEBE9", "#F5B32F", "#2AA9BB", "#EB1921", "#000000"]
+hex_colours = ["#264E9A", "#DCEBE9", "#F5B32F", "#2AA9BB", "#6ED56E", "#EB1921"]
 Chord(matrix, names, colors=hex_colours).to_html()
 
 

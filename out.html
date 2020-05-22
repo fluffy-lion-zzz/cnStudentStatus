@@ -12,7 +12,7 @@
     https://pypi.org/project/chord/
     -->
   	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>CodeNation Student Status</title>
+    <title>Code Nation Student Status</title>
     <!-- Google Fonts -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <link
@@ -26,7 +26,7 @@
         font-family: "Lato", sans-serif;
       }
 
-      #chart-6df877bd {
+      #chart-a66b6e12 {
 
         font-size: 16px;
         font-family: "Lato", sans-serif;
@@ -34,22 +34,22 @@
         fill: #454545;
       }
 
-      #chart-6df877bd svg {
+      #chart-a66b6e12 svg {
         max-width: 700px;
       }
 
       @media (min-width: 600px) {
-				#chart-6df877bd{
+				#chart-a66b6e12{
 					font-size: 20px;
 				}
 			}
     </style>
   </head>
-  <div>
-      <img src='https://wearecodenation.com/app/uploads/short-logo.svg' width="200">
-    </div>
   <body>
-    <div id="chart-6df877bd" class="chord">
+      <div>
+          <img src="https://wearecodenation.com/app/uploads/short-logo.svg" width="200">
+        </div>
+    <div id="chart-a66b6e12" class="chord">
     </div>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
@@ -75,10 +75,10 @@
         innerRadius = Math.min(width, height) * 0.39;
         outerRadius = innerRadius * 1.1;
 
-      tag_id = "chart-6df877bd";
+      tag_id = "chart-a66b6e12";
       padding = 0.01;
       Names = ['apprentice', 'cn-chester', 'cn-manchester', 'da-cambridge', 'employed', 'unemployed'];
-      colors = ['#264E9A', '#DCEBE9', '#F5B32F', '#2AA9BB', '#EB1921', '#000000'];
+      colors = ['#264E9A', '#DCEBE9', '#F5B32F', '#2AA9BB', '#6ED56E', '#EB1921'];
       opacityDefault = 0.8;
       matrix = [[0, 7, 25, 5, 0, 0], [7, 0, 0, 0, 6, 9], [25, 0, 0, 0, 12, 21], [5, 0, 0, 0, 1, 6], [0, 6, 12, 1, 0, 0], [0, 9, 21, 6, 0, 0]];
       wrap_labels = true;
